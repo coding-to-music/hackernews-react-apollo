@@ -604,6 +604,23 @@ yarn
 npx prisma generate
 ```
 
+Output
+```java
+
+Prisma schema loaded from prisma/schema.prisma
+
+✔ Generated Prisma Client (2.12.1) to ./node_modules/@prisma/client in 174ms
+You can now start using Prisma Client in your code. Reference: https://pris.ly/d/client
+```
+import { PrismaClient } from '@prisma/client'
+const prisma = new PrismaClient()
+```
+
+warn Prisma 2.12.0 has breaking changes.
+You can update your code with npx @prisma/codemods update-2.12 ./
+Read more at https://pris.ly/2.12
+```
+
 #### Exploring the server
 
 With Prisma Client generated, we can now explore our server.
