@@ -75,7 +75,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 https://github.com/howtographql/howtographql/blob/main/content/frontend/react-apollo/1-getting-started.md
 
----
+```java
 title: Getting Started
 pageTitle: 'Getting Started with GraphQL, React and Apollo Tutorial'
 description:
@@ -96,11 +96,7 @@ answers:
     specification.',
   ]
 correctAnswer: 2
-draft: false
-videoId: ''
-duration: 0
-videoAuthor: ''
----
+```
 
 Since this is a frontend track, we're not going to spend any time implementing
 the backend. Instead, we'll use the server from the
