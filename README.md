@@ -296,6 +296,29 @@ hooks) which comes in several packages:
 yarn add @apollo/client graphql
 ```
 
+Output
+```java
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 11 new dependencies.
+info Direct dependencies
+├─ @apollo/client@3.5.6
+└─ graphql@16.2.0
+info All dependencies
+├─ @apollo/client@3.5.6
+├─ @graphql-typed-document-node/core@3.1.1
+├─ @wry/equality@0.5.2
+├─ graphql-tag@2.12.6
+├─ graphql@16.2.0
+├─ hoist-non-react-statics@3.3.2
+├─ optimism@0.16.1
+├─ symbol-observable@4.0.0
+├─ ts-invariant@0.9.4
+├─ zen-observable-ts@1.2.3
+└─ zen-observable@0.8.15
+Done in 8.69s.
+```
+
 </Instruction>
 
 Here's an overview of the packages we installed:
